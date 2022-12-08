@@ -16,5 +16,20 @@ namespace IMC_aplication.Controllers
         public IActionResult Listar(){
             return Ok();
         }
+
+        [HttpPost("cadastrar")]
+        public IActionResult Cadastrar(){
+            return Ok();
+        }
+
+        [HttpPut]
+        public IActionResult Alterar(){
+            return Ok();
+        }
+
+        [HttpDelete("deletar/{id}")]
+        public IActionResult Deletar(){
+            return Ok();
+        }
     }
 }
