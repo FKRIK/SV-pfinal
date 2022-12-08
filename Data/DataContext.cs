@@ -11,7 +11,7 @@ namespace IMC_aplication.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
         
-        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Imc> Imcs { get; set; }
     }
 }
