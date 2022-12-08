@@ -46,7 +46,7 @@ namespace IMC_aplication.Controllers
         }
 
         [HttpPut]
-        public IActionResult Alterar(){
+        public IActionResult Alterar(Imc imc){
             return Ok();
         }
 
