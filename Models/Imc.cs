@@ -16,4 +16,6 @@ namespace IMC_aplication.Models
         public double Imcc { get; set; }
         public string Classificacao { get; set; }
     }
+
+    
 }
