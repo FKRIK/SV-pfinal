@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using IMC_aplication.Models;
 
 namespace IMC_aplication.Models
 {
@@ -16,8 +17,8 @@ namespace IMC_aplication.Models
         public double Altura { get; set; }
         public double Imcc { get; set; }
         public string Classificacao { get; set; }
-        // public int UsuarioId { get; set; }
-        // public Usuario Usuario { get; set; }
+        public int UsuarioId { get; set; }
+        public Usuario Usuario { get; set; }
     }
 
     

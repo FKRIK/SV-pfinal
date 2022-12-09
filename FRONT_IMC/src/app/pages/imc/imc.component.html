@@ -1,0 +1,12 @@
+<h2>Cadastrar Imc</h2>
+<div id="nome">
+    <label for="txtNome">Nome</label>
+    <input type="text" id="txtNome" [(ngModel)]="nome" />
+</div>
+<div id="cpf">
+    <label for="txtCpf">Nascimento (ex: 20/10/1988)</label>
+    <input type="text" id="txtNasc" [(ngModel)]="nasc" />
+</div>
+<div id="botao">
+    <button id="btnCadastrar" (click)="cadastrar()">Cadastrar</button>
+</div>
